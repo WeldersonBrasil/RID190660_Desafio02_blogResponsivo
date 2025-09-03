@@ -1,0 +1,1 @@
+# RID190660_Desafio02_blogResponsivo
