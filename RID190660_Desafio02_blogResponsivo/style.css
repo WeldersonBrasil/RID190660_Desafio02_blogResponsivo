@@ -1,0 +1,368 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+body {
+    margin: 0;
+}
+
+footer {
+    background: #02a28f;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;   
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 0px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px;
+    display: flex;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #02a28f;
+    margin: 0px 0px 8px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #616161;
+    display: flex;
+    justify-content: space-between;
+    
+    & > p {
+        margin: 0px;
+    }
+}
+
+#container-section-title {
+    background: #02a28f;
+    height: 70px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#container-title {
+    margin-left: 156px;
+    width: 100%;
+}
+
+#container-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: auto auto;
+}
+
+#container-banner-article {
+    background-image: url(./assets/BloG.png.jpeg);
+    background-size: cover;
+    height: 396px;
+    width: 744px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+}
+
+#container-banner-img {
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%);
+    height: 396px;
+    width: 744px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+}
+
+#container-banner-testo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 30px;
+   
+    & > p {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0px;
+    }
+}
+
+#container-posts-recentes {
+    height: 883px;
+    width: 744px;
+
+}
+
+#title-section-recentes {
+    height: 56px;
+    width: 744px;
+    border-radius: 8px;
+    background: #02a28f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+
+
+    & > h2 {
+        margin-left: 30px;
+    }
+
+    & > a {
+        padding-right: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+}
+
+#section-card {
+    height: 816px;
+    width: 744px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 24px;
+}
+
+#container-posts-populares {
+    height: 396px;
+    width: 361px;
+    display: grid;
+    row-gap: 20px;
+}
+
+#container-categorias {
+    height: 184px;
+    width: 361px;
+    display: grid;
+    row-gap: 14px;
+}
+
+.container-card-section {
+    height: 396px;
+    width: 360px;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    & > img {
+        height: 191px;
+        width: 360px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+}
+
+.container-card-text {
+    height: 175px;
+    padding: 16px;
+
+    & > p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #616161;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+}
+
+.title-section {
+    height: 48px;
+    width: 360px;
+    border-radius: 10px;
+    background: #02a28f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+
+    & > h2 {
+        padding-left: 25px;
+    }
+}
+
+.article-card {
+    height: 96px;
+    width: 360px;
+    display: grid;
+    grid-template-columns: 132px auto;
+    align-content: center;
+    background: #ffffff;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+    border-radius: 10px;
+
+    & > img {
+        height: 70px;
+        width: 132px;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+}
+
+.article-card-text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    & > p {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 8px;
+        color: #616161;
+    }
+}
+
+.grid-article {
+    
+}
+
+.company-1 {
+    grid-area: 1 / 1;
+    justify-self: right;
+}
+
+.company-2 {
+    grid-area: 2 / 1;
+    justify-self: right;
+}
+
+.company-3 {
+    grid-area: 1 / 2;
+}
+
+.company-4 {
+    grid-area: 2 / 2;
+}
+
+@media only screen and (max-width: 767px) {
+    main {
+        height: 2937;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+
+    #container-section-title {
+        margin-bottom: 24px;
+    }
+
+    #container-title {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    #container-grid {
+        display: grid;
+        grid-template-columns: 368px;
+        grid-template-rows: auto;
+        justify-content: center;
+        row-gap: 24px;
+    }
+
+    #container-banner-article {
+        height: 396px;
+        width: 368px;
+        display: flex;
+        justify-self: center;
+    }
+
+    #container-banner-img {
+        height: 396px;
+        width: 368px;
+    }
+
+    #container-posts-recentes {
+        display: grid;
+        justify-self: center;
+        grid-template-rows: 50px;
+        grid-template-columns: 368px;
+        height: 1723px;
+        width: 368px;
+    }
+
+    #title-section-recentes {
+        height: 40px;
+        width: 368px;
+        margin-bottom: 0px;
+    }
+
+    #section-card {
+        margin-top: 14px;
+        width: 368px;
+        display: grid;
+        grid-template-columns: 368px;
+    }
+
+    #container-posts-populares {
+        width: 368px;
+        display: grid;
+        justify-self: center;
+    }
+
+    #container-categorias {
+        width: 368px;
+        display: grid;
+        justify-self: center;
+    }
+
+    .company-1 {
+        grid-area: auto;
+    }
+
+    .company-2 {
+        grid-area: auto;
+    }
+
+    .company-3 {
+        grid-area: auto;
+    }
+
+    .company-4 {
+        grid-area: auto;
+    }
+
+    .container-card-section {
+        width: 368px;
+
+        & > img {
+            width: 368px;
+        }
+    }
+
+    .title-section {
+        width: 368px;
+    }
+
+    .article-card {
+        width: 368px;
+    }
+}
